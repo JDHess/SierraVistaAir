@@ -1,11 +1,49 @@
 .hero-imageone {
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/forest.png");
-    height: 700px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/forest.png");
+    height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size:cover;
   /*image is fixed in background all other elements are scrolling*/  
   /*background attachement makes image fixed*/
     position: relative;
+    top: 60px;
     background-position: top;
+}
+.hero-imagetwo {
+  background-image: url("../images/SierraLogo.png");
+  height: 900px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+/*image is fixed in background all other elements are scrolling*/  
+/*background attachement makes image fixed*/
+  position: relative;
+  top: -300px;
+  background-position: top;
+  background-size: 70vw;
+}
+.hero-imagethree {
+  background-image: linear-gradient(to right, rgba(8, 0, 157, 0.4), rgba(8, 0, 157, 0.4)), url("../images/Trees.png");
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+/*image is fixed in background all other elements are scrolling*/  
+/*background attachement makes image fixed*/
+  position: relative;
+  background-position: top;
+  z-index: 3;
+}
+.hero-imagefour {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/forest.png");
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+/*image is fixed in background all other elements are scrolling*/  
+/*background attachement makes image fixed*/
+  position: relative;
+  background-position: top;
+z-index: 2;
 }
