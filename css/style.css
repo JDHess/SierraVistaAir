@@ -88,3 +88,31 @@
   background-position: top;
 z-index: 2;
 }
+.heatingcar {
+  background-image:  url("../images/heatingcar.png");
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+/*image is fixed in background all other elements are scrolling*/  
+/*background attachement makes image fixed*/
+  position: relative;
+  background-position: center;
+}
+.aircon {
+  background-image: url("../images/aircon.png");
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+/*image is fixed in background all other elements are scrolling*/  
+/*background attachement makes image fixed*/
+  position: relative;
+  background-position: center;
+}
+@media screen and (max-width: 538px) {
+  .mediaq1 {
+    width: 100% !important;
+    float: left !important;
+  }
+}
